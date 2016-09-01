@@ -1,0 +1,27 @@
+In the imgdata folder there are CSV files containing 
+experimental data. 
+Each file contains results of analysis of one brain image.
+The files start like this:
+
+Animal number,912
+Age,23
+Picture number,1
+No,Size,Intensity
+1,2.046348,172.567250
+2,2.160691,220.771969
+3,2.146303,268.172057
+
+In the header you can find the ID of the animal (Animal number), 
+age of the animal in weeks, and consecutive number of the picture
+for that animal. 
+Below there is a list of cells identified at this image. 
+Each cell is characterized by its size and intensity. 
+The hypothesis is that the average size and intensity correlate 
+with the age of the animal.
+Write a program to verify this hypothesis. The output of the 
+program should be plots of size and intensity (average of all
+cells from each animal separately) as functions of age. 
+
+
+Note: do not assume any specific number of animals / pictures 
+in the imgdata folder. You may assume these number are <10000.

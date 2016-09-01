@@ -1,0 +1,12 @@
+In the images folder you can find jpg files which are 
+photographs of a mouse in a three-chambered cage taken once
+per second.
+
+Write a program which automatically locates the mouse on 
+each frame and returns the time spent in each of three
+compartments. 
+
+Notes:
+1. Make sure your program would work for white mice.
+2. Your program does not have to find the boundaries
+of the compartments, you can provide it as an extra input. 
